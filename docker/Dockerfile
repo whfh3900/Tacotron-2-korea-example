@@ -20,9 +20,9 @@ RUN apt-get install -y libasound-dev portaudio19-dev libportaudio2 libportaudioc
 #RUN wget http://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
 #RUN tar -jxvf LJSpeech-1.1.tar.bz2
 
-RUN git clone https://github.com/Yeongtae/Tacotron-2-kor.git
+RUN git clone https://github.com/whfh3900/Tacotron-2-korea-example.git
 
-WORKDIR Tacotron-2-kor
+WORKDIR Tacotron-2-korea-example
 #RUN ln -s ../LJSpeech-1.1 .
 RUN pip install -r requirements.txt
 RUN pip install tensorflow-gpu==1.10
