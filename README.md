@@ -52,5 +52,4 @@ https://github.com/lifefeel/SpeechSynthesis
 #### example
 ` python train.py --tacotron_num_gpus = 1 --wavenet_num_gpus = 2
 ## 3. Synthesize
-' python synthesize.py
-웨이브넷까지 최종합성 완료가 되면 wavenet_output폴더가 생성되어 안에 합성결과가 들어가 있다.
+` python synthesize.py 웨이브넷까지 최종합성 완료가 되면 wavenet_output폴더가 생성되어 안에 합성결과가 들어가 있다.
