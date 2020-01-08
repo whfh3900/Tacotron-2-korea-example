@@ -7,19 +7,33 @@
 
 # Install
 falcon==1.2.0
+
 inflect==0.2.5
+
 audioread==2.1.5
+
 librosa==0.5.1
+
 matplotlib==2.0.2
+
 numpy==1.14.0
+
 scipy==1.0.0
+
 tqdm==4.11.2
+
 Unidecode==0.4.20
+
 pyaudio==0.2.11
+
 sounddevice==0.3.10
+
 lws
+
 keras
+
 nltk==3.3
+
 jamo==0.4.1
 
  해당 명령어를 통해 필요한 패키지를 설치 할 수 있다.
