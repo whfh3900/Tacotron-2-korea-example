@@ -32,7 +32,7 @@ https://github.com/lifefeel/SpeechSynthesis
 ` python preprocess_audio.py ` and ` python preprocess.py `
 ## 2. Training
 ` python train.py `
- 실행하기 전에 hparams.py에서 하이퍼파라미터를 설정하거나 argument를 설정하여 실행하는 것을 권장한다. 이것으로 Tacotron과 Wavenet 훈련 gpu 사용 갯수 및 Tactron 또는 Wavenet만 실행 시킬 수도 있다.
+ 실행하기 전에 hparams.py에서 하이퍼파라미터 및 기타 argument를 설정하고 실행하는 것을 권장한다. 이것으로 Tacotron과 Wavenet 훈련 gpu 사용 갯수 및 Tactron 또는 Wavenet만 실행 시킬 수도 있다.
 또한 만약 Tactron2 모델을 학습할 때 Tacotron 학습이 끝난 후 Wavenet으로 넘어가기 전에 Tacotron의 합성결과를 tacotron_output에서 확인할 수 있다.
 #### example
 ` python train.py --tacotron_num_gpus = 1 --wavenet_num_gpus = 2 `
