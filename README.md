@@ -3,6 +3,8 @@
 본 소스코드는 포트폴리오 용으로 작성한 것이고, 실제 코드는 https://github.com/Rayhane-mamah/Tacotron-2 기반으로 작성하였다. 
 2019년 2월에 Tacotron에 관심가지게 되어 Tacotron2 code를 분석하다가 개인 사정에 의해 잠시 분석을 중단하였는데 현재 구글링을 해보니 Tacotron3가 나온것 같아서 나중에 꼭 한번 시도해 봐야겠다. 현 버젼의 Tacotron의 개인적인 단점은 합성하는데 시간이 걸린다는 점이다. 실시간 음성합성 기술로는 적합하지 않다. Taotron3는 이러한 문제를 해결한 것일까?(https://github.com/StevenLOL/tacotron-3.git)
 
+![CreatePlan](C:\Users\whfh3\OneDrive\바탕 화면\논문아키텍처\다운로드.png)
+
 # Install
 falcon==1.2.0
 inflect==0.2.5
